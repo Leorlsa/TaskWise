@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <title>TaskWise</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+          <img src="/Imagem/logo.png">
+        </div>
+       </div>
+
+ 
+    
+
+  <!--Backgroud--><div class="centro">
+    <div class="input-group mb-3" id="enviar_tarefa" class="container">
+        <input type="text" class="form-control" id = "input" placeholder="Adicione Tarefas..." aria-label="Adicione Tarefas..." aria-describedby="button-addon2" maxlength="30">
+        <div class="input-group-append">
+
+         
+           <!--Botão--><button id= "botao" class="btn btn-outline-secondary" onclick="enviar()" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+          </svg></button>
+        </div>
+      </div>
+      
+     <!--Barra da Tarefa-->
+      <div id = "card" class="card">
+      
+        <div class="card-body" id="tarefas" class="pt-3">
+          ...
+          <i class="fa fa-trash" id="excluir" aria-hidden="true"></i>
+         <i class="fa fa-check" onclick="concluirTarefa(event)" id ="concluido" aria-hidden="true"></i>
+        </div>
+      </div>
+      
+ </div>   
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</html>

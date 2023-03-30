@@ -1,0 +1,43 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.logo {
+    text-align: center;
+  }
+
+  .centro{
+    border-radius: 10px;
+    width: 600px;
+    height: 700px;
+    background-color: rgb(228, 228, 228);
+    margin: 0 auto;
+  }
+    
+
+#enviar_tarefa {
+  height: 50px;
+}
+  #botao{
+    height: 50px;
+    
+  }
+  #excluir{
+   float: right;
+   
+   cursor: 	pointer;
+  }
+  
+  #concluido{
+    margin-right: 5px;
+    float: right;
+    cursor: pointer;
+   
+  }
+.text-center{
+     position:absolute;
+     margin-top: -15%;
+     margin-left: 35%;
+}
+ 
